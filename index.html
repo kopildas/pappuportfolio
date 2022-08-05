@@ -36,6 +36,10 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- animate css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="https://kit.fontawesome.com/a3cc7269f9.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 </head>
 
 <body>
@@ -65,16 +69,30 @@
     <!-- ./header -->
 
     <!-- home -->
-    <div class="section" id="home" data-stellar-background-ratio="0.5">
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Pappu Kar</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <div class="section" id="home" data-stellar-background-ratio="0.5">
         <div class="container">
-            <div class="disply-table">
+            <div class="disply-table"> -->
+
                 <!-- class="table-cell"  -->
-                <div class="header-text table-cell" data-aos="fade-up" data-aos-delay="0">
+
+                <!-- <div class="header-text table-cell" data-aos="fade-up" data-aos-delay="0">
                     <h4>Hi, I'm Pappu Kar</h4>
                     <h1>Ui &<br /> Ux Designer</h1> </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- ./home -->
 
     <!-- about -->
@@ -101,12 +119,13 @@
                 <div class="about-col-1">
                     <h4>01</h4>
                     <h1 class="size-50">Know <br /> About me</h1>
-                    <div class="h-50"></div>
-                    <p>Appropriately maintain standards compliant total linkage with cutting-edge action items.<br> Enthusiastically create seamless synergy rather than excellent value.<br> Quickly promote premium strategic theme areas vis-a-vis.</p>
+                    <!-- <div class="h-50"></div> -->
+                    <br>
+                    <p>Experienced UX/UI designer with a prolific record in analysing and identifying user requirements to steer interface design and development. Proficient in enhancing user and customer experience by developing new designs concepts. Leading usability testing and assessing prior user engagements to bolster design and interface.</p>
                     <!-- <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p> -->
                     <!-- <div class="h-50"></div>  -->
                     <!-- <img src="img/signature.png" width="0" alt="" /> -->
-                    <!-- <div class="h-50"></div>   -->
+                    <div class="h-50"></div>  
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('education')">Education</p>
                         <p class="tab-links" onclick="opentab('skills')">Skills</p>
@@ -115,16 +134,21 @@
                     </div>
                     <div class="tab-contents active-tab" id="education">
                         <ul>
-                            <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
-                            <li><span>2014</span><br>MBA from .....</li>
-                            <li><span>2018</span><br>BBA from ......</li>
+                            <li><span>Dec 2022</span><br><b> Georgia State University </b><br>
+                                Bachelor of Interdisciplinary Studies</li>
+                            <li><span>Jul 2020</span><br><b>Georgia Perimeter College</b><br>Associate of Science</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="skills">
                         <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
-                            <li><span>Web Development</span><br>Web app Development</li>
-                            <li><span>App Development</span><br>Building Android/ios  apps</li>
+                            <li><span>Soft Skills:</span><br>
+                                Critical thinking <br> Risk analysis and project planning<br>Training and Professional 
+                                Development<br> Flexibility<br>Collaboration</li>
+                            <li><span>Technical:</span><br>Wireframing and 
+                                prototyping <br> user interface<br> user 
+                                testing<br>UX research<br> interaction 
+                                design<br> Visual Communication)</li>
+                            
                         </ul>
                     </div>
                     <div class="tab-contents" id="soft">
@@ -139,14 +163,15 @@
                     </div>
                     <div class="tab-contents" id="cv">
                         <ul>
-                            <li><span>Here is my CV</span></li>
+                            
+                            <li><span><a href="/pappuportfolio/img/Pappukar.pdf">Here is my CV</a></span></li>
                             
                         </ul>
                     </div>
                 </div>
                 <div class="about-col-2 ">
                     <!-- <div class="about-border" data-aos="fade-up" data-aos-delay=".5"></div> -->
-                    <img src="img/second.jpeg" width="400" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
+                    <img src="img/second.jpeg" width="100" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
                 </div>
             </div>   
         </div>
@@ -336,6 +361,45 @@
         </div>
     </div>
     <!-- ./projects -->
+
+
+
+
+    <!-- contact -->
+    <div class="section" id="contact">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>04</h4>
+                <h1 class="size-50">Contact  Me</h1>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up">
+
+                <h3><i class="fa-solid fa-mobile-screen-button"></i> Mobile Number</h3>
+                <p>770-572-3253</p>
+                <h3><i class="fa-regular fa-at"></i> Email</h3>
+                <a href="mailto:pappukar806@yahoo.com">pappukar806@yahoo.com</a>
+
+                <h3>Social Network</h3>
+
+                <ul class="social">
+                    <li><a href="https://github.com/Pappu1999"><i class="fa-brands fa-github "></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/pappukar/"><i class="fa-brands fa-linkedin "></i></a></li>
+                    
+                </ul>
+                <div class="clearfix"></div>
+                <div class="h-50"></div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- ./contact -->
+
+
+
+
+
+
     <!--DEMO01-->
     <div   id="popup-1"  class="popup">
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
@@ -347,41 +411,38 @@
         margin-right: 0px;
     ">
             <div class="close-btn" onclick="togglePopup()">&times;</div>
-            <div class="container">
+            <div class="">
                 <div class="portfolio-padding">
-                    <div class="col-md-8 col-md-offset-2">
-                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
-                        <!-- <h2>Geschäfts Eines<br /> Web-Studios</h2> -->
-                        <!-- <div class="h-50"></div>
-                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
-                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
-                        <br />
-                        <br /> <img src="/pappuportfolio/img/01.jpg" alt="" class="img-responsive" />
-                        <br />
-                        <br />
-                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
-                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
-                        <br /> -->
-                        <!-- <br />  -->
+                    <div class="">
                         
 
                        <div id="project-1">
                         
-                            <div class="text-container    v-top ">
-                                <h1 style="color: rgb(47, 44, 44);">Shadow</h1>
-                                <h2 style="color: rgb(45, 42, 42);">A movie reservation app for theatergoers.</h2>
+                            <div class="text-container  tx  v-top ">
+                                <h1>Shadow</h1>
+                                <h2>A movie reservation app for theatergoers.</h2>
                             </div>
                        </div>
-                       <br>
-                       <div class="h1" style="">
+                        <br>
+                        <div class="h1" style="">
                         Project overview
                         </div>
-
+                        <br>
                             <div id="section-5" class="ufo-sec ufo-sec--textandmedia flipped-true " style="--paddingTop: 0px;  --paddingBottom: 0px;">
 
-                                <div class="grid">
+                                <div class="grid" class="row no-gutters">
                 
-                                    <div class="col-media col-order-2 media-image media-default    " style="padding-top: 0;  padding-bottom: 0;">
+                                    <div class="col-12 col-sm-6 col-md-8">
+                                        <div class="text-dec" >
+                                            <h3>The product:</h3><p>Shadow is a movie reservation app to help people reserve seats in a convenient way. I need to make sure that the app is user-friendly and people can use it from anywhere.</p><p></p><h3>Project duration:</h3><p>January&nbsp;2022 to April 2022</p>
+                                        </div>
+                
+                
+                
+                                    </div>
+
+
+                                    <div class="col-6 col-md-4" style="padding-top: 0;  padding-bottom: 0;">
                                         <div class="media-container">
                                             <div class="media-box">
                                                 <div class="media-box  ">
@@ -395,9 +456,127 @@
                                         </div>
                                     </div>
                 
+                                    
+                
+                                </div>
+                
+                            </div>
+                        
+                    
+                            <br>
+                            <br>
+                            <br>
+
+                            <div id="section-6" class="ufo-sec ufo-sec--stat" style="--paddingTop: 100px;  --paddingBottom: 100px;">
+
+                                <div class="grid2 ufo--columns statistics-columns ufo--columns-4">
+                                        <div class="ufo--column stat-data">
+                                            <div class="number h1" style="font-size: 80px;">
+                                                12
+                                            </div>
+                                            <div class="unit h4" style="font-size: 30px;">
+                                                Interviews
+                                            </div>
+                                        </div>
+                                        <div class="ufo--column stat-data">
+                                            <div class="number h1" style="font-size: 80px;">
+                                                10
+                                            </div>
+                                            <div class="unit h4" style="font-size: 30px;">
+                                                Usability Tests
+                                            </div>
+                                        </div>
+                                        <div class="ufo--column stat-data">
+                                            <div class="number h1" style="font-size: 80px;">
+                                                20+
+                                            </div>
+                                            <div class="unit h4" style="font-size: 30px;">
+                                                Survey
+                                            </div>
+                                        </div>
+                                        <div class="ufo--column stat-data">
+                                            <div class="number h1" style="font-size: 80px;">
+                                                50+
+                                            </div>
+                                            <div class="unit h4" style="font-size: 30px;">
+                                                Screen
+                                            </div>
+                                        </div>
+                                </div>
+                        
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+
+                            <!-- problem parats -->
+                            <div id="section-8" class="ufo-sec ufo-sec--text" style="--paddingTop: 60px; --paddingBottom: 0px;">
+                                <div class="grid3">
+                                    <div class="text-dec" "="">
+                                        <h3>The problem:</h3><p>The majority of moviegoers dislike waiting in line to purchase tickets.</p><p></p><h3>The goal:</h3><p>Movie theater app will let users save time which will affect the movie lovers by reserving seats from anywhere they want.</p><p></p><p></p>
+                                        <h3>My role:</h3><p>UX designer designing an app for Shadow from conception to delivery.</p><p></p><h3>Responsibilities:</h3><p>User research, wireframing, prototyping, storyboarding, competitor analysis, empathy map, persona, user interviews</p><p></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--  -->
+                            <div id="section-10" class="ufo-sec ufo-sec--header " style=" --paddingTop: 30px; --paddingBottom: 100px; --darkreader-inline-bgcolor:#181a1b;" data-darkreader-inline-bgcolor="">
+
+                                <div class="">
+                                        <div class="image-container ">
+                                        </div>
+                                    <div class="text-dec">
+                                        <div class="ufo--basic-text-area">
+                                            <div class="text-h1" style="">
+                                                Understanding the user
+                                            </div>
+                                            <br>
+                                            <p class="grid3">I assembled a research plan that included the introduction, research questions, KPIs, methodology, participants, and script. Our qualitative analysis involved interviewing five theatergoers who attend at least once a month. As part of the quantitative analysis, I collected the responses of ten people via Google Forms.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                            
+                            <div id="section-12" class="ufo-sec ufo-sec--media image mockup-on" style="--paddingTop: 60px;  --paddingBottom: 0px;">
+
+                                <div class="grid4">
+                                    <div class="media-container display-mode--default  " style="padding-top: 0;  padding-bottom: 0;">
+                                        <div class="image">
+                                            <img loading="lazy" src="/pappuportfolio/img/user_res.PNG" alt="" width="750" height="520">
+                                        </div>
+                        
+                        
+                                    </div>
+                                </div>
+                        
+                            </div>
+
+                            <br>
+                            <br>
+                            <br>
+                            <div id="section-13" class="ufo-sec ufo-sec--textandmedia flipped-true " style="--paddingTop: 60px;  --paddingBottom: 0px;">
+
+                                <div class="grid">
+                
+                                    <div class="col-media col-order-2 media-image media-default    " style="padding-top: 0;  padding-bottom: 0;">
+                                        <div class="media-container">
+                                            <div class="media-box">
+                                                <div class="media-box  ">
+                
+                                                    <div class="image">
+                                                        <img loading="lazy" src="/pappuportfolio/img/sourv.png" data-zoom="" alt="Shadow" width="686" height="425" class="medium-zoom-image">
+                                                    </div>
+                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
                                     <div class="col-text col-order-1 media-image media-default  ">
-                                        <div class="text-container " "="">
-                                            <h3>The product:</h3><p>Shadow is a movie reservation app to help people reserve seats in a convenient way. I need to make sure that the app is user-friendly and people can use it from anywhere.</p><p></p><h3>Project duration:</h3><p>January&nbsp;2022 to April 2022</p>
+                                        <div class="text-dec" "="">
+                                            <h3>Personas: Sourav</h3><p><br><br></p>
+                                            <p><strong>Problem statement: </strong></p><p>Sourav is a student who needs to reserve a seat while he is at school because once he is done he can go to the theater right after.<br></p>
                                         </div>
                 
                 
@@ -407,19 +586,314 @@
                                 </div>
                 
                             </div>
+
+                            <br><br><br>
+
+                            <div id="section-13" class="ufo-sec ufo-sec--textandmedia flipped-true " style="--paddingTop: 60px;  --paddingBottom: 0px;">
+
+                                <div class="grid" style="grid-template-columns: 40% 60%;">
+
+                                    <div class="col-text col-order-1 media-image media-default  ">
+                                        <div class="text-dec" "="">
+                                            <h3>User journey map</h3>
+                                            <br><p>Eliyas was trying to watch a movie in the theater but first, he needs to download the app. Actions are listed on the chart including improvement opportunities.&nbsp;</p><p><br></p>
+                                        </div>
+                
+                
+                
+                                    </div>
+                
+                                    <div class="col-media col-order-2 media-image media-default    " style="padding-top: 0;  padding-bottom: 0;">
+                                        <div class="media-container">
+                                            <div class="media-box">
+                                                <div class="media-box  ">
+                
+                                                    <div class="image">
+                                                        <img loading="lazy" src="/pappuportfolio/img/Eliyas.jpg" data-zoom="" alt="Shadow" width="686" height="425" class="medium-zoom-image">
+                                                    </div>
+                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    
+                
+                                </div>
+                
+                            </div>
+
+
+
+                            <div id="section-10" class="ufo-sec ufo-sec--header " style=" --paddingTop: 30px; --paddingBottom: 100px; --darkreader-inline-bgcolor:#181a1b;" data-darkreader-inline-bgcolor="">
+
+                                <div class="">
+                                        <div class="image-container ">
+                                        </div>
+                                    <div class="text-dec">
+                                        <div class="ufo--basic-text-area">
+                                            <div class="text-h1" style="">
+                                                Starting the design
+                                            </div>
+                                            <!-- <br>
+                                            <p class="grid3">I assembled a research plan that included the introduction, research questions, KPIs, methodology, participants, and script. Our qualitative analysis involved interviewing five theatergoers who attend at least once a month. As part of the quantitative analysis, I collected the responses of ten people via Google Forms.</p> -->
+                                        </div>
+                                    </div>
+                                </div>
                         
-                    
-                    
-                            
+                            </div>
 
 
-....
+                            <div id="section-13" class="ufo-sec ufo-sec--textandmedia flipped-true " style="--paddingTop: 60px;  --paddingBottom: 0px;">
+
+                                <div class="grid" >
+                
+                                    <div class="col-media col-order-2 media-image media-default    " style="padding-top: 0;  padding-bottom: 0;">
+                                        <div class="media-container">
+                                            <div class="media-box">
+                                                <div class="media-box  ">
+                
+                                                    <div class="image">
+                                                        <img loading="lazy" src="/pappuportfolio/img/desgn1.PNG" data-zoom="" alt="Shadow"width="532" height="533" class="medium-zoom-image">
+                                                    </div>
+                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="text-dec col-text col-order-1 media-image media-default  " style="width: 532; height: 533;">
+                                        <div class="text-dec" >
+                                            <h3>Paper wireframes</h3><p>The low-fidelity wireframe is a visual representation of a digital product. Rather than focusing on specific details, they help communicate the idea of the product.</p>                                        
+                                        </div>
+                
+                
+                
+                                    </div>
+                
+                                </div>
+                
+                            </div>
+
+                            <br><br>
+
+                            <div id="section-13" class="ufo-sec ufo-sec--textandmedia flipped-true " style="--paddingTop: 60px;  --paddingBottom: 0px;">
+
+                                <div class="grid" >
+
+                                    <div class="text-dec col-text col-order-1 media-image media-default  " style="width: 532; height: 533;">
+                                        <div class="text-dec" >
+                                            <h3>Digital wireframes</h3><p>The home screen will allow the user to choose a movie which is playing now, tomorrow, and upcoming.&nbsp;</p><p><br></p>                                        
+                                        </div>
+                
+                
+                
+                                    </div>
+                
+                                    <div class="col-media col-order-2 media-image media-default    " style="padding-top: 0;  padding-bottom: 0;">
+                                        <div class="media-container">
+                                            <div class="media-box">
+                                                <div class="media-box  ">
+                
+                                                    <div class="image">
+                                                        <img loading="lazy" src="/pappuportfolio/img/desgn2.jpeg" data-zoom="" alt="Shadow"width="457" height="865"  class="medium-zoom-image">
+                                                    </div>
+                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    
+                
+                                </div>
+                
+                            </div>
+
+                            <br><br>
+                            <div id="section-13" class="ufo-sec ufo-sec--textandmedia flipped-true " style="--paddingTop: 60px;  --paddingBottom: 0px;">
+
+                                <div class="grid" >
+                
+                                    <div class="col-media col-order-2 media-image media-default    " style="padding-top: 0;  padding-bottom: 0;">
+                                        <div class="media-container">
+                                            <div class="media-box">
+                                                <div class="media-box  ">
+                
+                                                    <div class="image">
+                                                        <img loading="lazy" src="/pappuportfolio/img/desgn3.PNG" data-zoom="" alt="Shadow"width="426" height="856" class="medium-zoom-image">
+                                                    </div>
+                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="text-dec col-text col-order-1 media-image media-default  " style="width: 532; height: 533;">
+                                        <div class="text-dec" >
+                                            <h3>Digital wireframes</h3><p>Users may able to watch the trailer on this page. The movie summary and cast are there as well. User can select their best time and date to go to the next screen.&nbsp;</p><p><br></p>
+                                        </div>
+                
+                
+                
+                                    </div>
+                
+                                </div>
+                
+                            </div>
+
+                            <br><br>
+                            <div class="text-dec grid3" >
+                                <h3>Low-fidelity prototype</h3><p>The low-fidelity prototype connected the primary user flow to reserve seats, so the prototype could be used in a usability study user.</p><p>View the Shadow</p><p><a href="https://www.figma.com/proto/qVUuEx9iXzAy5S6EvDbJPh/Untitled?node-id=16%3A8&amp;scaling=min-zoom&amp;page-id=0%3A1&amp;starting-point-node-id=2%3A2" target="_blank" rel="noopener noreferrer nofollow">Low-fidelity prototype</a></p><p><br></p>
+                            </div>
+                            <br><br><br>
+                            <div id="section-21" class="ufo-sec ufo-sec--media image " style="--paddingTop: 60px;  --paddingBottom: 0px;">
+
+                                <div class="grid4">
+                                    <div class="media-container display-mode--offgrid  " style="padding-top: 0;  padding-bottom: 0;">
+                                <div class="media-box  ">
+                        
+                                    <div class="image">
+                                        <img loading="lazy" src="/pappuportfolio/img/desgn4.png" data-zoom="" alt="Shadow" width="1136" height="583" class="medium-zoom-image">
+                                    </div>
+                        
+                                </div>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                            <br><br>
+                            <div id="section-10" class="ufo-sec ufo-sec--header " style=" --paddingTop: 30px; --paddingBottom: 100px; --darkreader-inline-bgcolor:#181a1b;" data-darkreader-inline-bgcolor="">
+
+                                <div class="">
+                                        <div class="image-container ">
+                                        </div>
+                                    <div class="text-dec">
+                                        <div class="ufo--basic-text-area">
+                                            <div class="text-h1" style="">
+                                                Refining the design
+                                            </div>
+                                            <!-- <br>
+                                            <p class="grid3">I assembled a research plan that included the introduction, research questions, KPIs, methodology, participants, and script. Our qualitative analysis involved interviewing five theatergoers who attend at least once a month. As part of the quantitative analysis, I collected the responses of ten people via Google Forms.</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                            <br><br>
+
+                            <div id="section-23" class="ufo-sec ufo-sec--media image " style="--paddingTop: 0px;  --paddingBottom: 0px;">
+
+                                <div class="grid4">
+                                    <div class="media-container display-mode--offgrid  " style="padding-top: 0;  padding-bottom: 0;">
+                                <div class="media-box  ">
+                        
+                                    <div class="image">
+                                        <img loading="lazy" src="/pappuportfolio/img/desgn5.png" data-zoom="" alt="Shadow" width="1137" height="552" class="medium-zoom-image">
+                                    </div>
+                        
+                                </div>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                            <br><br>
+
+                            <div id="section-24" class="ufo-sec ufo-sec--media image " style="--paddingTop: 60px;  --paddingBottom: 0px;">
+
+                                <div class="grid4">
+                                    <div class="media-container display-mode--offgrid  " style="padding-top: 0;  padding-bottom: 0;">
+                                <div class="media-box  ">
+                        
+                                    <div class="image">
+                                        <img loading="lazy" src="/pappuportfolio/img/desgn6.png" data-zoom="" alt="" width="1139" height="544" class="medium-zoom-image">
+                                    </div>
+                        
+                                </div>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                            <br><br>
+                            <h1>Gallary section will be added soon</h1>
+                            <br><br>
+
+                            <div id="section-26" class="ufo-sec ufo-sec--text" style="--paddingTop: 100px; --paddingBottom: 100px;">
+                                <div class="grid3">
+                                    <div class="text-dec" "="">
+                                        <h3>High-fidelity prototype</h3><p>The final high-fidelity prototype presented cleaner user flows to reserve seats and it also met user expectations.&nbsp;</p><p>View the Shadow</p><p><a href="https://www.figma.com/proto/Gfix4oIEbmbFG7QKQY5wWx/Untitled?node-id=2%3A288&amp;scaling=scale-down&amp;page-id=0%3A1&amp;starting-point-node-id=2%3A259" rel="noopener noreferrer nofollow">High-fidelity prototype</a></p>
+                                    </div>
+                    
+                    
+                    
+                                </div>
+                            </div>
+
+                            <br><br>
+                            <h1>Gallary section will be added soon</h1>
+                            <br><br>
+
+                            <div id="section-34" class="ufo-sec ufo-sec--text" style="--paddingTop: 60px; --paddingBottom: 60px;">
+                                <div class="grid3">
+                        <div class="text-dec" "="">
+                                <h3>Next steps</h3><p>I will conduct more research to see if there is any new improvement needed.</p>
+                        </div>
+                    
+                    
+                    
+                                </div>
+                            </div>
+                        <br><br>
+
+                        <div id="section-35" class="ufo-sec ufo-sec--text" style="--paddingTop: 0px; --paddingBottom: 60px;">
+                            <div class="grid3">
+                    <div class="text-dec" "="">
+                            <h3>Let's connect!</h3><p>Thank you so much for your time to reviewing my work, if you have any questions you can get in touch with me, contact me via email:</p><p style="text-align: center;"><a href="mailto:pappukar806@yahoo.com" rel="noopener noreferrer nofollow">pappukar806@yahoo.com</a>&nbsp;</p><p><br></p>
+                    </div>
+                
+                
+                
+                            </div>
+                        </div>
+                        </div>
+
+
+
+                        
+                        <footer class="project-footer">
+                            <div class="footer-info">
+                                <div class="grid5 info ">
+                                    <div class="project-owner">
+                                        <div class="owner" onclick="navigateBack()">
+                                            <div class="owner-info">
+                                                <div class="owner-name">Pappu Kar</div>
+                                                <div class="owner-company">UX designer</div>
+                                            </div>
+                                        </div>
+                                        <div class="footer-links">
+                                                    <a href="https://pappukar.com/p/1379913c/contact" class="footer-btn">Contact</a>
+                                                    <a href="https://storage.googleapis.com/uxfolio/6285ce5c2d74460003abba47/cv/Pappukar_rpx.pdf" target="_blank" class="footer-btn">Resume</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+
+
+
+                
+
+
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <button onclick="togglePopup()">Show Popup</button>
+    
+
+
+
 
 
 <!-- jQuery -->
@@ -434,6 +908,8 @@
     AOS.init();
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.js"></script>
+
+
 
 </body>
 
