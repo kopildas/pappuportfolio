@@ -808,7 +808,7 @@ a.active {
     left : 0px;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.7); 
+    background: rgba(242, 242, 242, 0.7); 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
     border: none;
     z-index: 1;
@@ -820,7 +820,7 @@ a.active {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%) scale(0);
-    background: #161414;
+    background: #dfd7d7;
     
     /*  */
     /* 
@@ -997,7 +997,7 @@ a.active {
 /* contacts */
 #contact {
     padding: 100px 0;
-    background: #f3f3f3
+    background: #000000
 }
 .social {
     padding-left: 0;
