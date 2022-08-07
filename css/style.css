@@ -1002,7 +1002,12 @@ a.active {
 .popup .h1{
     color: rgb(0, 0, 0);
 }
-
+.owner-name{
+    color: rgb(0, 0, 0);
+}
+.owner-company{
+    color: rgb(0, 0, 0);
+}
 /* icons */
 .fa-brands{
     color: rgb(81, 128, 188);
