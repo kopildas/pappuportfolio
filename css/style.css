@@ -760,7 +760,7 @@ a.active {
 }
 
 .portfolio-padding {
-    padding: 50px 0;
+    padding: 70px 0;
 }
 
 .portfolio-inner {
@@ -820,7 +820,7 @@ a.active {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%) scale(0);
-    background: #dfd7d7;
+    background: #fff;
     
     /*  */
     /* 
@@ -854,12 +854,15 @@ a.active {
     background: url(../img/shadow.jpeg);
     background-size: cover;
     background-position: center;
+    font-family: 'Ubuntu', sans-serif;
     position: relative;
     
     background-position: 50%;
     overflow: hidden;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -947,6 +950,7 @@ a.active {
     font-weight:700;
     line-height:63px;
     text-align:center;
+    color: black;
 }
 
 #section-10 .text-dec{
@@ -986,7 +990,18 @@ a.active {
 .popup .tx h2{
     color: #16285c;
 }
+.popup p
+{
+    color:  rgb(0, 0, 0);
+}
+.popup h3
+{
+    color:  rgb(0, 0, 0);
+}
 
+.popup .h1{
+    color: rgb(0, 0, 0);
+}
 
 /* icons */
 .fa-brands{
