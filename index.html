@@ -35,7 +35,7 @@
     <!-- AOS animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- animate css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
 
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <script src="https://kit.fontawesome.com/a3cc7269f9.js" crossorigin="anonymous"></script>
@@ -134,7 +134,7 @@
                     </div>
                     <div class="tab-contents active-tab" id="education">
                         <ul>
-                            <li><span>Dec 2022</span><br><b> Georgia State University </b><br>
+                            <li><span>May 2023</span><br><b> Georgia State University </b><br>
                                 Bachelor of Interdisciplinary Studies in Game Design</li>
                             <li><span>Jul 2020</span><br><b>Georgia Perimeter College</b><br>Associate of Computer Science</li>
                         </ul>
@@ -142,12 +142,9 @@
                     <div class="tab-contents" id="skills">
                         <ul>
                             <li><span>Soft Skills:</span><br>
-                                Critical thinking <br> Risk analysis and project planning<br>Training and Professional 
+                                Critical Thinking <br> Risk Analysis and Project Planning<br>Training and Professional 
                                 Development<br> Flexibility<br>Collaboration</li>
-                            <li><span>Technical:</span><br>Wireframing and 
-                                prototyping <br> user interface<br> user 
-                                testing<br>UX research<br> interaction 
-                                design<br> Visual Communication</li>
+                            <li><span>Technical:</span><br>Wireframing and Prototyping <br> User Interface<br>User Testing<br>UX Research<br>Interaction Design<br> Visual Communication</li>
                                 <li><span>Software:</span><br>Figma <br>Maze<br> Adobe (XD, Bridge, Photoshop)<br>Webflow<br> UXfolio</li>
                             
                         </ul>
@@ -276,7 +273,7 @@
                 <!-- portfolio div -->
                 <div class="portfolio-div">
                     <div class="portfolio">
-                        <!-- portfolio_filter -->
+                         <!-- portfolio_filter -->
                         <div class="categories-grid wow fadeInLeft">
                             <nav class="categories">
                                 <ul class="portfolio_filter">
@@ -307,10 +304,10 @@
                             
                             <!-- single work -->
                             <div class="col-md-4 col-sm-6 graphics ads">
-                                <a id="demo07" href="#animatedModal" class="portfolio_item"> <img src="/pappuportfolio/img/01.jpg" alt="image" class="img-responsive" />
+                                <a id="demo07" href="#animatedModal" class="portfolio_item" onclick="togglePopup2()"> <img src="/pappuportfolio/img/nutrition.jpg" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>
+                                            <div class="item_info"> <span>Nutrition</span> <em>This is a relational databases system that I created to track nutrition data</em> </div>
                                         </div>
                                     </div>
                                 </a>
@@ -319,27 +316,17 @@
                             
                             <!-- single work -->
                             <div class="col-md-4 col-sm-6 graphics ads">
-                                <a id="demo08" href="#animatedModal" class="portfolio_item"> <img src="/pappuportfolio/img/01.jpg" alt="image" class="img-responsive" />
+                                <a id="demo08" href="#animatedModal" class="portfolio_item" onclick="togglePopup3()"> <img src="/pappuportfolio/img/phones.jpg" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>
+                                            <div class="item_info"> <span>Phones</span> <em>.........</em> </div>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                             <!-- end single work -->
                             
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 graphics ads">
-                                <a id="demo09" href="#animatedModal" class="portfolio_item"> <img src="/pappuportfolio/img/01.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
+                           
                             
                             
                         </div>
@@ -400,8 +387,7 @@
         <div class="clearfix"></div> -->
         <div class="content" style="
         margin-left: 0px;
-        margin-right: 0px;
-    ">
+        margin-right: 0px;">
             <div class="close-btn" onclick="togglePopup()">&times;</div>
             <div class="">
                 <div class="portfolio-padding">
@@ -882,6 +868,174 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+    <!-- popup2 -->
+    <div   id="popup-2"  class="popup">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div class="overlay"></div>
+        <!-- <div id="btn-close-modal" class="close-animatedModal close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div> -->
+        <div class="content" style="
+        margin-left: 0px;
+        margin-right: 0px;">
+            <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                <div class="">
+                <div class="portfolio-padding">
+                    <div class="cor_st">
+                        
+
+                       <div id="project-2">
+                        
+                            <div class="text-container  tx  v-top ">
+                                <h1>Nutrition</h1>
+                                <h2><b> This is a relational databases system that I created to track nutrition data.</b></h2>
+                            </div>
+                       </div>
+                        <br>
+                        <div class="h1">
+                            Project overview
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-8">
+                            <div class="text-dec" >
+                                <h3>The product:</h3><p>Shadow is a movie reservation app to help people reserve seats in a convenient way. I need to make sure that the app is user-friendly and people can use it from anywhere.</p><p></p><h3>Project duration:</h3><p>January&nbsp;2022 to April 2022</p>
+                        </div>
+
+                        <div class="h1">
+                            Here a screenshot of SQL file
+                        </div>
+                        <br>
+                        <div class="image">
+                            <img loading="lazy" src="/pappuportfolio/img/nutData.jpeg" alt="" width="950" height="520">
+                        </div>
+
+                        <br>
+
+                        <footer class="project-footer">
+                            <div class="footer-info">
+                                <div class="grid5 info ">
+                                    <div class="project-owner">
+                                        <div class="owner" onclick="navigateBack()">
+                                            <div class="owner-info">
+                                                <div class="owner-name">Pappu Kar</div>
+                                                <div class="owner-company">UX designer</div>
+                                            </div>
+                                        </div>
+                                        <div class="footer-links">
+                                                    <a href="https://pappukar.com/p/1379913c/contact" class="footer-btn">Contact</a>
+                                                    <a href="https://storage.googleapis.com/uxfolio/6285ce5c2d74460003abba47/cv/Pappukar_rpx.pdf" target="_blank" class="footer-btn">Resume</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+    
+    
+                        </div>
+
+
+                        
+                       
+
+
+
+                
+
+
+
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+
+    <!-- popup3 -->
+    <div   id="popup-3"  class="popup">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div class="overlay"></div>
+        <!-- <div id="btn-close-modal" class="close-animatedModal close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div> -->
+        <div class="content" style="
+        margin-left: 0px;
+        margin-right: 0px;">
+            <div class="close-btn" onclick="togglePopup3()">&times;</div>
+                <div class="">
+                <div class="portfolio-padding">
+                    <div class="cor_st">
+                        
+
+                       <div id="project-3">
+                        
+                            <div class="text-container  tx  v-top ">
+                                <h1>phones</h1>
+                                <h2><b> This is a relational databases system that I created to track phones data.</b></h2>
+                            </div>
+                       </div>
+                        <br>
+                        <div class="h1">
+                            Project overview
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-8">
+                            <div class="text-dec" >
+                                <h3>The product:</h3><p>Shadow is a movie reservation app to help people reserve seats in a convenient way. I need to make sure that the app is user-friendly and people can use it from anywhere.</p><p></p><h3>Project duration:</h3><p>January&nbsp;2022 to April 2022</p>
+                        </div>
+
+                        <div class="h1">
+                            Here a screenshot of this project
+                        </div>
+                        <br>
+                        <div class="image">
+                            <img loading="lazy" src="/pappuportfolio/img/phodata.jpeg" alt="" width="950" height="520">
+                        </div>
+
+                        <br>
+
+                        <footer class="project-footer">
+                            <div class="footer-info">
+                                <div class="grid5 info ">
+                                    <div class="project-owner">
+                                        <div class="owner" onclick="navigateBack()">
+                                            <div class="owner-info">
+                                                <div class="owner-name">Pappu Kar</div>
+                                                <div class="owner-company">UX designer</div>
+                                            </div>
+                                        </div>
+                                        <div class="footer-links">
+                                                    <a href="https://pappukar.com/p/1379913c/contact" class="footer-btn">Contact</a>
+                                                    <a href="https://storage.googleapis.com/uxfolio/6285ce5c2d74460003abba47/cv/Pappukar_rpx.pdf" target="_blank" class="footer-btn">Resume</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+    
+    
+                        </div>
+
+
+                        
+                       
+
+
+
+                
+
+
+
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+    
     
 
 
@@ -901,6 +1055,8 @@
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.js"></script>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="yourPath/animatedModal.min.js"></script>
 
 
 </body>

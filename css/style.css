@@ -6,6 +6,26 @@
     box-sizing: border-box;
 }
 
+html {
+    --scrollbarBG: #CFD8DC;
+    --thumbBG: #90A4AE;
+  }
+body::-webkit-scrollbar {
+    width: 11px;
+  }
+body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+  }
+
 
 /* typography
 ==================================================*/
@@ -850,6 +870,41 @@ a.active {
     
 }
 
+.popup2 .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    background: #fff;
+    
+    /*  */
+    /* 
+    z-index: 2; */
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+
+    /* float: right;
+    margin: 20px;
+    font-size: 22px; */
+    position: fixed;
+    /* width: 100%;
+    height: 100%; */
+   
+    overflow-y: auto;
+    
+    opacity: 1;
+    animation-duration: 0.6s;
+
+    
+    cursor: pointer;
+    position: fixed;
+    z-index: 100000;
+    right: 14px;
+    
+}
+
 #project-1{
     background: url(../img/shadow.jpeg);
     background-size: cover;
@@ -865,6 +920,38 @@ a.active {
     margin-right: auto;
     
 }
+#project-2{
+    background: url(../img/nutr2.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    
+    background-position: 50%;
+    overflow: hidden;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#project-3{
+    background: url(../img/phones.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    
+    background-position: 50%;
+    overflow: hidden;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
 
 .popup .close-btn {
     float: right;
@@ -983,6 +1070,18 @@ a.active {
     float: left;
     /* padding-right: 24px; */
     text-align: left;
+}
+#popup-2 .tx h1{
+    color: #030303;
+}
+#popup-2 .tx h2{
+    color: #080808;
+}
+#popup-3 .tx h1{
+    color: #ffffff;
+}
+#popup-3 .tx h2{
+    color: #ffffff;
 }
 .popup .tx h1{
     color: #21327d;
