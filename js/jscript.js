@@ -169,3 +169,12 @@ function togglePopup3(){
         }
     });
 }
+function togglePopup4(){
+    document.getElementById("popup-4").classList.toggle("active");
+    // document.getElementById("popup-1").classList.toggle("active");
+    document.addEventListener('keydown', function(event){
+        if(event.key === "Escape"){
+    document.getElementById("popup-4").classList.toggle("active");
+        }
+    });
+}

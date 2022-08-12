@@ -1138,3 +1138,62 @@ a.active {
 .social li a:hover {
     color: #425BB5;
 }
+
+/* phptpgraphy section */
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20ppx 0 20px;
+}
+.cont .heding { 
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.cont .heding h3{ 
+    font-size: 3em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+}
+.cont .heding h3 span{
+    
+    font-weight: 100;
+    
+}
+.cont .boxx{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont .boxx .bo1{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+.cont .boxx .bo1 img{
+
+    width: 100%;
+}
+.popup .gridpho{
+    display: grid;
+    
+    /* grid-gap: var(--gridGap); */
+    grid-template-rows: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin:20px 20px;
+    
+}
+
+#popup-4 .text-dec{
+    text-align: center;
+}
+
+#popup-4 .h1{
+    font-weight: 100;
+}
