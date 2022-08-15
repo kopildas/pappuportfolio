@@ -658,8 +658,9 @@ a.active {
     margin: 20px 0;
 }
 
-.portfolio .categories-grid .categories ul li a {
+.portfolio .categories-grid .categories ul li {
     display: inline-block;
+    
     color: #60606e;
     padding: 0 10px;
     margin: 0 14px;
@@ -672,7 +673,7 @@ a.active {
     text-decoration: none;
 }
 
-.portfolio .categories-grid .categories ul li a.active {
+.portfolio .categories-grid .categories ul li.active {
     background-color: #425BB5;
     padding: 0px 20px;
     color: white;
@@ -761,10 +762,17 @@ a.active {
     float: left;
 }
 
-.portfolio .categories-grid .categories ul li a {
+.portfolio .categories-grid .categories ul li {
     padding: 0 10px;
     -webkit-transition: all .2s ease-in-out .2s;
     transition: all .2s ease-in-out .2s;
+    cursor: pointer;
+}
+.portfolio .categories-grid .categories ul li a:hover {
+
+} 
+.product .itemBox.hide{
+    display: none;
 }
 
 .portfolio_filter {
@@ -776,11 +784,11 @@ a.active {
 
 .portfolio_item img {
     -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    filter: grayscale(100%) blur(2px);
 }
 
 .portfolio-padding {
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 .portfolio-inner {
@@ -793,7 +801,7 @@ a.active {
     border: none;
 }
 
-/* .popup-modal {
+.popup-modal {
     background: #fff;
 }
 
@@ -812,15 +820,28 @@ a.active {
     right: 14px;
 }
 
+/* project filter */
+/* .section ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.section ul li {
+    list-style: none;
+    background: #eee;
+    padding: 12px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+} */
+
 .animatedModal-on .close-popup-modal {
     opacity: 1;
 }
 
-.modal-content h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 40px;
-    line-height: 50px;
-} */
 
 .popup .overlay {
     position: fixed;
@@ -1027,8 +1048,8 @@ a.active {
     
     /* grid-gap: var(--gridGap); */
     grid-template-rows: auto;
-    padding-left: 150px;
-    padding-right: 24px;
+    padding-left: 50px;
+    padding-right: 2px;
     margin:20px 20px;
 }
 
