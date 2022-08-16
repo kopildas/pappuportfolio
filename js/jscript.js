@@ -154,36 +154,38 @@ function togglePopup(){
     document.getElementById("popup-1").classList.toggle("active");
     // document.getElementById("popup-1").classList.toggle("active");
     document.addEventListener('keydown', function(event){
+        console.log(event);
         if(event.key === "Escape"){
-    document.getElementById("popup-1").classList.toggle("active");
+            var pop = document.getElementById("popup-1");
+            pop.hide();
         }
     });
 }
 
-function togglePopup2(){
-    document.getElementById("popup-2").classList.toggle("active");
-    // document.getElementById("popup-1").classList.toggle("active");
-    document.addEventListener('keydown', function(event){
-        if(event.key === "Escape"){
-    document.getElementById("popup-2").classList.toggle("active");
-        }
-    });
-}
-function togglePopup3(){
-    document.getElementById("popup-3").classList.toggle("active");
-    // document.getElementById("popup-1").classList.toggle("active");
-    document.addEventListener('keydown', function(event){
-        if(event.key === "Escape"){
-    document.getElementById("popup-3").classList.toggle("active");
-        }
-    });
-}
+// function togglePopup2(){
+//     document.getElementById("popup-2").classList.toggle("active");
+//     // document.getElementById("popup-1").classList.toggle("active");
+//     document.addEventListener('keydown', function(event){
+//         if(event.key === "Escape"){
+//     document.getElementById("popup-2").classList.toggle("active");
+//         }
+//     });
+// }
+// function togglePopup3(){
+//     document.getElementById("popup-3").classList.toggle("active");
+//     // document.getElementById("popup-1").classList.toggle("active");
+//     document.addEventListener('keydown', function(event){
+//         if(event.key === "Escape"){
+//     document.getElementById("popup-3").classList.toggle("active");
+//         }
+//     });
+// }
 function togglePopup4(){
     document.getElementById("popup-4").classList.toggle("active");
     // document.getElementById("popup-1").classList.toggle("active");
     document.addEventListener('keydown', function(event){
         if(event.key === "Escape"){
-    document.getElementById("popup-4").classList.toggle("active");
+            openClose();
         }
     });
 }

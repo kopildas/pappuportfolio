@@ -1270,6 +1270,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7e8c95",endCo
     padding-left: 92px;
     color: #000;
 }
+.icop p{
+    padding: 0 32px;
+}
 /* project button */
 
 .btn {
