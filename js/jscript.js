@@ -154,10 +154,9 @@ function togglePopup(){
     document.getElementById("popup-1").classList.toggle("active");
     // document.getElementById("popup-1").classList.toggle("active");
     document.addEventListener('keydown', function(event){
-        console.log(event);
+
         if(event.key === "Escape"){
-            var pop = document.getElementById("popup-1");
-            pop.hide();
+            document.getElementById("popup-1").hidden();
         }
     });
 }
@@ -185,7 +184,7 @@ function togglePopup4(){
     // document.getElementById("popup-1").classList.toggle("active");
     document.addEventListener('keydown', function(event){
         if(event.key === "Escape"){
-            openClose();
+            document.getElementById("popup-4").hidden();
         }
     });
 }
