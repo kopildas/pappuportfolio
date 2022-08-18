@@ -64,8 +64,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 24px;
-    background: #080808;
-    color: #fff;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
 }
 
 .size-50 {
