@@ -45,4 +45,6 @@
       filter: grayscale(0) brightness(1);
     }
   }
-  
+  .photo h1{
+    text-align: center;
+  }
