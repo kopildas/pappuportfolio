@@ -171,9 +171,10 @@ section{
 
 
 #project-1 {
-    background: url(../img/shadow.jpeg);
+    background: url(../img/shadow.jpeg)no-repeat center;
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
+    /* background-position: center; */
     font-family: 'Ubuntu', sans-serif;
     position: relative;
     background-position: 50%;
