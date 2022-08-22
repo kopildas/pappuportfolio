@@ -228,6 +228,10 @@ section{
 #section-13 h2{
     padding-left: 10.3rem;
 }
+
+.bx{
+    
+}
 .bx h2{
     padding-left: 10.2rem;
 }
@@ -241,27 +245,34 @@ section{
     text-align: left;
 }
 .bx .cont2{
-    flex-direction: row;
+    
     /* justify-content: space-between; */
     align-items: center;
     padding-left: 50rem;
     padding-right: 50rem;
 }
 .bx .cont32{
-    flex-direction: row;
+    
     /* justify-content: space-between; */
     align-items: center;
     padding-left: 29rem;
     padding-right: 50rem;
 }
-.bx .cont{
-    flex-direction: row;
-    justify-content: space-between;
+.bx .boxx{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    
     align-items: center;
     padding-left: 10rem;
     padding-right: 10rem;
 }
+.bx .cont3{
+    padding-left: 140px;
+}
 .bx .boxx .bo {
+    padding-top: 100px;
     width: 40rem;
     height: 28rem;
     background: rgb(245 245 245);
@@ -297,11 +308,11 @@ section{
 
 
 .bx .boxx .bo1{
-    display: flex;
-    flex-direction: column;
-    width: 32.5%;
-    width: 33rem;
-    height: 40rem;
+    flex: 1 1 200px;
+    height: 400px;
+    margin: 2rem;
+
+
     color: #010208;
     border-radius: 1rem;
     background: rgb(242,245,247);
@@ -331,15 +342,44 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     text-align: center;
     background: rgb(144, 173, 218);
     margin-left: 9rem;
+    margin-right: 9rem;
     margin-top: 1rem;
     border-radius: 5rem;
-    width: 15rem;
+
+    flex: 1 1 15rem;
     height: 4rem;
     box-shadow: 0 0.4rem 0.8rem 0 rgba(153, 144, 144, 0.979);
   transition: 0.3s;
 }
 .fot{
     padding: 2rem;
+}
+#section-13-low h2{
+    padding-left: 12rem;
+    
+}
+#section-13-high h2 {
+    padding-left: 12.2 rem;
+}
+.high .grid {
+    /* --gridGap: 24px; */
+    display: grid;
+    grid-template-columns: 40% 60%;
+    /* grid-gap: var(--gridGap); */
+    grid-template-rows: auto;
+    padding: 0rem 7.5rem;
+    
+    /* padding-right: 24px; */
+}
+#section-13-low .text-dec {
+    padding-left: 5rem;
+    padding-right: 0.2rem; 
+    padding: 9.8rem 0;
+}
+#section-13-low .grid {
+    grid-template-columns: 40% 60%; 
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 
@@ -366,6 +406,14 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     html{
         font-size: 45%;
     }
+    p {
+        margin: 0 0 10px;
+        font-size: 2.7rem;
+    }
+    .high .grid {
+        /* --gridGap: 24px; */
+        display: block;
+    }
     .popup .grid {
         /* --gridGap: 24px; */
 
@@ -373,11 +421,23 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         padding: 0rem 0rem;
     }
     #section-5 .image{
-        padding-left: 23rem;
-        width: 50%;
+        width: 285%;
+        padding-left: 151px;
     }
     #section-13 .image{
         padding-left: 2rem;
+        width: 54%;
+    }
+    #section-131 .image{
+        padding-left: 0rem;
+        width: 55%;
+    }
+    #section-132 .image {
+        padding-left: 17rem;
+        width: 100%;
+    }
+    #section-133 .image {
+        padding-left: 20rem;
         width: 100%;
     }
     .grid {
@@ -387,7 +447,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     }
     .grid2 {
         display: block;
-        padding-left: 47rem;
+        padding-left: 42rem;
     }
     .grid3 {
         display: block;
@@ -412,7 +472,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         
     }
     #section-10 .text-h1 {
-        width: 94rem;
+        width: 86rem;
         padding-left: 45px;
     }
     #section-10 .text-dec {
@@ -420,6 +480,24 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         font-size: 2.8rem;
         line-height: 7rem;
         text-align: center;
+    }
+    #section-13-low h2{
+        padding-left: 47px;
+        
+    }
+    #section-13-high h2{
+        padding-left: 47px;
+        
+    }
+    #section-13-low .text-dec {
+        padding-left: 0rem;
+        font-size: 2.989rem;
+    }
+    #section-13-low .grid {
+        padding-left: 6.4rem;
+    }
+    .caption h2 {
+        padding-left: 24px;
     }
     .user {
         max-width: 100%;
@@ -431,6 +509,180 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     }
     .col-md-4{
         padding-left: 0rem;
+    }
+    #section-13 h2 {
+        padding-left: 7.1rem;
+    }
+    .bx .boxx .bo {
+        padding-top: 74px;
+    }
+    .bx .cont3{
+        padding-left: 80px;
+    }
+
+    
+}
+
+
+
+
+
+@media  (max-width: 468px){
+    html{
+        font-size: 45%;
+    }
+    p {
+        margin: 0 0 10px;
+        font-size: 2.7rem;
+    }
+    .popup .grid {
+        /* --gridGap: 24px; */
+
+        display: block;
+        padding: 0rem 0rem;
+    }
+    #section-5 .image{
+        width: 285%;
+        padding-left: 26px;
+    }
+    .image {
+        /* padding-left: 3.5rem; */
+        width: 49%;
+        height: 250%;
+    }
+    #section-13 .image{
+        padding-left: 0rem;
+        width: 53%;
+    }
+    #section-131 .image{
+        padding-left: 0rem;
+        width: 58%;
+    }
+    #section-132 .image {
+        padding-left: 0rem;
+        width: 100%;
+    }
+    #section-133 .image {
+        padding-left: 2rem;
+        width: 100%;
+    }
+    .grid {
+        /* --gridGap: 24px; */
+        display: block;
+        padding: 0rem 3rem;
+    }
+    .mogrid{
+        padding: 0rem 0rem;
+    }
+    .mogrid .text-dec{
+        padding: 0rem 3rem;
+    }
+    .grid2 {
+        display: block;
+        padding-left: 24rem;
+        color: #000;
+    }
+    .grid3 {
+        display: block;
+        /* grid-gap: var(--gridGap); */
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin: 0rem 0rem;
+    }
+    .mogrid p{
+
+            margin: 0 0 10px;
+            font-size: 2.7rem;
+            line-height: 5rem;
+        
+    }
+    .mogrid .motex{
+        margin-top: 90px;
+    }
+    .grid3 p{
+        line-height: 4.5rem;
+    }
+    .user p{
+        font-size: 3.7rem;
+    }
+    .caption h3 {
+        margin-bottom: 0rem;
+    }
+    .sub_cap h2 {
+        padding-left: 0rem;
+    }
+    .caption h3 {
+        padding-left: 2.5rem;
+        
+    }
+    .text-dec {
+        padding: 5rem 0;
+        margin-left: 0rem;
+        
+    }
+    #section-10 .text-h1 {
+        width: 48rem;
+        padding-left: 33px;
+    }
+    #section-10 .text-dec {
+        /* font-family: PT Serif; */
+        font-size: 2.8rem;
+        line-height: 7rem;
+        text-align: center;
+        padding-left: 11px;
+    }
+    #section-13-low h2{
+        padding-left: 47px;
+        
+    }
+    #section-13-low .text-dec {
+        padding-left: 5rem;
+        padding-right: 0.2rem;
+        padding: 1.8rem 0;
+    }
+    #section-13-high h2{
+        padding-left: 47px;
+        
+    }
+    
+    #section-13-low .grid {
+        padding-left: 6.4rem;
+    }
+    #section-13-low .image{
+        display: none;
+    }
+    .high .grid {
+        /* --gridGap: 24px; */
+        display: block;
+        
+        
+        /* padding-right: 24px; */
+    }
+    .caption h2 {
+        padding-left: 24px;
+    }
+    .user {
+        max-width: 100%;
+        height: 50%;
+    }
+    .text-dec {
+        /* font-family: PT Serif; */
+        font-size: 2.3rem; 
+    }
+    .col-md-4{
+        padding-left: 0rem;
+    }
+    #section-13 h2 {
+        padding-left: 7.1rem;
+    }
+    .bx .boxx .bo {
+        padding-top: 74px;
+    }
+    .bx .cont3{
+        padding-left: 80px;
+    }
+    .bx .boxx .bo2 {
+        height: auto;
     }
 
     
