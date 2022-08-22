@@ -119,6 +119,7 @@ section{
     line-height:6.3rem;
     text-align:center;
     color: black;
+    padding-left: 115px;
 }
 #section-113 h2{
     padding-left: 12.2rem;
@@ -167,6 +168,7 @@ section{
     text-align:left;
     padding: 15rem 0;
     margin-left: 5rem;
+    
 }
 
 
@@ -366,11 +368,22 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     }
     .popup .grid {
         /* --gridGap: 24px; */
+
         display: block;
+        padding: 0rem 0rem;
     }
-    .image{
-        padding-left: 19.5rem;
+    #section-5 .image{
+        padding-left: 23rem;
+        width: 50%;
+    }
+    #section-13 .image{
+        padding-left: 2rem;
         width: 100%;
+    }
+    .grid {
+        /* --gridGap: 24px; */
+        display: block;
+        padding: 0rem 3rem;
     }
     .grid2 {
         display: block;
@@ -383,8 +396,24 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         padding-right: 0rem;
         margin: 0rem 0rem;
     }
+    .caption h3 {
+        margin-bottom: 0rem;
+    }
+    .sub_cap h2 {
+        padding-left: 0rem;
+    }
+    .caption h3 {
+        padding-left: 2.5rem;
+        
+    }
+    .text-dec {
+        padding: 5rem 0;
+        margin-left: 0rem;
+        
+    }
     #section-10 .text-h1 {
         width: 94rem;
+        padding-left: 45px;
     }
     #section-10 .text-dec {
         /* font-family: PT Serif; */
@@ -399,6 +428,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     .text-dec {
         /* font-family: PT Serif; */
         font-size: 2.3rem; 
+    }
+    .col-md-4{
+        padding-left: 0rem;
     }
 
     
