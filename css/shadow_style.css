@@ -223,7 +223,7 @@ section{
 .caption h3 {
     text-align: left;
     margin-bottom: 8rem;
-    margin-top: 10rem;
+    margin-top: 4.4rem;
     /* gap: 0rem; */
     padding-left: 12.5rem;
     font-weight: 100;
@@ -331,6 +331,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
 .bx .boxx .bo1 .subnum h3{
     text-align: center;
     padding-left: 0rem;
+    padding-top: 9px;
     
 }
 .bx .caption h2 {
@@ -351,7 +352,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     border-radius: 5rem;
 
     flex: 1 1 15rem;
-    height: 4rem;
+    height: 5rem;
     box-shadow: 0 0.4rem 0.8rem 0 rgba(153, 144, 144, 0.979);
   transition: 0.3s;
 }
