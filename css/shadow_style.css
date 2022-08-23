@@ -103,14 +103,13 @@ section{
     padding-left: 16rem;
     padding-right: 1.5rem;
 }
-.grid3{
+.grid3 {
     display: grid;
-    
     /* grid-gap: var(--gridGap); */
     grid-template-rows: auto;
-    padding-left: 20rem;
-    padding-right: 20rem;
-    margin:2rem 2rem;
+    padding-left: 10rem;
+    padding-right: 15rem;
+    margin: 2rem 2rem;
 }
 #section-10 .text-h1{
     font-size:6rem;
@@ -119,7 +118,7 @@ section{
     line-height:6.3rem;
     text-align:center;
     color: black;
-    padding-left: 115px;
+    padding-left: 0px;
 }
 #section-113 h2{
     padding-left: 12.2rem;
@@ -170,6 +169,9 @@ section{
     margin-left: 5rem;
     
 }
+.marz{
+    margin-left: 0rem;
+}
 
 
 
@@ -213,17 +215,19 @@ section{
 .sub_cap h2 {
     text-align: left;
     margin-bottom: 2rem;
-    padding-left: 3.5rem;
+    padding-left: 0rem;
     font-weight: 100;
     color: #000;
 }
 
 .caption h3 {
     text-align: left;
-    margin-bottom: 20rem;
-    padding-left: 11.5rem;
+    margin-bottom: 8rem;
+    margin-top: 10rem;
+    /* gap: 0rem; */
+    padding-left: 12.5rem;
     font-weight: 100;
-    color: #000;
+    color: rgb(0, 0, 0);
 }
 #section-13 h2{
     padding-left: 10.3rem;
@@ -367,7 +371,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     grid-template-columns: 40% 60%;
     /* grid-gap: var(--gridGap); */
     grid-template-rows: auto;
-    padding: 0rem 7.5rem;
+    padding: 0rem 4.5rem;
     
     /* padding-right: 24px; */
 }
@@ -380,6 +384,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     grid-template-columns: 40% 60%; 
     padding-left: 70px;
     padding-right: 70px;
+    gap: 3rem;
 }
 
 
@@ -421,8 +426,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         padding: 0rem 0rem;
     }
     #section-5 .image{
-        width: 285%;
-        padding-left: 151px;
+        width: 100%;
+        padding-left: 0px;
+    }
+    #section-5 .resimg{
+        width: 100%;
+        padding-left: 0px;
     }
     #section-13 .image{
         padding-left: 2rem;
@@ -430,15 +439,16 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     }
     #section-131 .image{
         padding-left: 0rem;
-        width: 55%;
+        width: 57%;
     }
     #section-132 .image {
-        padding-left: 17rem;
-        width: 100%;
+        /* padding-left: 17rem; */
+        width: 55%;
+        height: auto;
     }
     #section-133 .image {
-        padding-left: 20rem;
-        width: 100%;
+        /* padding-left: 20rem; */
+        width: 83%;
     }
     .grid {
         /* --gridGap: 24px; */
@@ -447,12 +457,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     }
     .grid2 {
         display: block;
-        padding-left: 42rem;
+        padding-left: 40%;
     }
     .grid3 {
         display: block;
         /* grid-gap: var(--gridGap); */
-        padding-left: 0rem;
+        padding-left: 2%;
         padding-right: 0rem;
         margin: 0rem 0rem;
     }
@@ -472,8 +482,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         
     }
     #section-10 .text-h1 {
-        width: 86rem;
-        padding-left: 45px;
+        width: 100%;
+        height: auto;
+        padding-left: 0px;
     }
     #section-10 .text-dec {
         /* font-family: PT Serif; */
@@ -542,13 +553,24 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         padding: 0rem 0rem;
     }
     #section-5 .image{
-        width: 285%;
-        padding-left: 26px;
+        width: 0%;
+        padding-left: 0px;
+    }
+    #section-5 .resimg{
+        width: 100%;
+        padding-left: 0px;
     }
     .image {
         /* padding-left: 3.5rem; */
-        width: 49%;
-        height: 250%;
+        width: 51%;
+        /* height: 272%;
+        padding-bottom: 50px; */
+    }
+    .sub_cap .image {
+        /* padding-left: 3.5rem; */
+        width: 53%;
+        height: 272%;
+        padding-bottom: 50px;
     }
     #section-13 .image{
         padding-left: 0rem;
@@ -560,11 +582,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     }
     #section-132 .image {
         padding-left: 0rem;
-        width: 100%;
+        width: 55%;
+        height: auto;
     }
     #section-133 .image {
         padding-left: 2rem;
-        width: 100%;
+        width: 83%;
     }
     .grid {
         /* --gridGap: 24px; */
@@ -579,13 +602,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     }
     .grid2 {
         display: block;
-        padding-left: 24rem;
+        padding-left: 22rem;
         color: #000;
     }
     .grid3 {
         display: block;
         /* grid-gap: var(--gridGap); */
-        padding-left: 0rem;
+        padding-left: 3rem;
         padding-right: 0rem;
         margin: 0rem 0rem;
     }
@@ -621,8 +644,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         
     }
     #section-10 .text-h1 {
-        width: 48rem;
-        padding-left: 33px;
+        width: 52rem;
+        padding-left: 0px;
     }
     #section-10 .text-dec {
         /* font-family: PT Serif; */
@@ -686,5 +709,87 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     }
 
     
+}
+
+
+@media  (max-width: 468px){
+    #section-10 .text-h1 {
+        width: 46rem;
+        padding-left: 0px;
+    }
+
+    #section-13 .image {
+        padding-left: 0rem;
+        width: 52%;
+    }
+    .user p {
+        font-size: 2.7rem;
+    }
+    #section-10 .text-dec {
+        /* font-family: PT Serif; */
+        /* font-size: 2.8rem; */
+        line-height: 5rem;
+    }
+    #section-5 .resimg {
+        width: 103%;
+        padding-left: 0px;
+    }
+}
+
+@media  (max-width: 376px){
+    #section-10 .text-dec {
+        padding-left: 0px;
+    }
+    #section-5 .resimg {
+        width: 105%;
+        padding-left: 0px;
+    }
+    #section-10 .text-h1 {
+        width: 42rem;
+        padding-left: 0px;
+    }
+    .user p {
+        font-size: 2.7rem;
+    }
+    .bx .caption h2 {
+        padding: 7px;
+    }
+    .bx .caption .boxx h2 {
+        
+        font-size: 20px;
+        
+    }
+    .bx .boxx .bo1 {
+        flex: 1 1 200px;
+        height: 250px;
+    }
+    .grid2 {
+
+        padding-left: 17rem;
+
+    }
+}
+
+
+@media  (max-width: 340px){
+    #section-10 .text-h1 {
+        width: 36rem;
+        padding-left: 0px;
+        font-size: 5rem;
+    }
+    #section-13-low h2 {
+        padding-left: 24px;
+    }
+    .user p {
+        font-size: 2.4rem;
+        line-height: 3.8rem;
+    }
+    .grid2 {
+        padding-left: 14rem;
+    }
+    #section-5 .resimg {
+        width: 107%;
+        padding-left: 0px;
+    }
 }
 
