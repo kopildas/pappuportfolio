@@ -1340,9 +1340,15 @@ a.active {
 .imgmov2{
     display: block;
 }
-
+nav .menu-btn i {
+    display: none;
+}
 
     @media screen and (max-width: 600px){
+        nav .menu-btn i {
+            display: block;
+        }
+        
         .imgmov1{
             display: block;
         }
