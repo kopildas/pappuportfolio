@@ -1329,3 +1329,141 @@ a.active {
 
   .hidden_1{
     display:none}
+    #click{
+        display: none;
+
+    }
+.imgmov1{
+    display: none;
+}
+
+.imgmov2{
+    display: block;
+}
+
+
+    @media screen and (max-width: 600px){
+        .imgmov1{
+            display: block;
+        }
+        .imgmov2{
+            display: none;
+        }
+        .fa-solid{
+            display: block;
+            font-size: 25px;
+        }
+        header {
+            width: 93%;
+            text-align: right;
+            height: 0px;
+        }
+        #home {
+            background: url(../img/afirst_faces_x2\ \(1\).jpg)no-repeat center;
+            width: 100%;
+            max-height: auto;
+            background-size: 100%;
+            height: auto;
+            min-height: 0%;
+        }
+        .home .max-width {
+            margin: 0% 0% auto 35%;
+        }
+        .fa-solid{
+            color: #000;
+            font-size: 20px;
+            padding-top: 50%;
+            cursor: pointer;
+        }
+        #click:checked ~ .menu-btn i::before{
+            content: "\f057";
+        }
+        nav ul{
+            background: #465ba7;
+            position: fixed;
+            top: 0;
+            left: -100%;
+            width: 150px;
+            height: 100%;
+            padding-top: 50px;
+            align-items: left;
+            transition: all .5s;
+        }
+
+        #click:checked ~ ul{
+            left: 0%;
+        }
+        
+        nav ul .fa-solid{
+            align-items: left;
+            line-height: 2;
+        }
+        nav ul li{
+            display: block;
+            margin: 25px;
+        }
+        .home .home-content .text-2 {
+            font-size: 31px;
+            margin: 25px 0;
+        }
+        .home .home-content .text-3 {
+            font-size: 19px;
+            margin: 0px 0;
+        }
+        .home .home-content .text-1 {
+            font-size: 20px;
+            margin: 0px 0;
+        }
+        .max-width {
+            max-width: 1300px;
+            padding: 27% 10%;
+            margin: 10%;
+        }
+        .size-50 {
+            font-size: 29px;
+            line-height: 40px;
+        }
+        
+        .about-col-1,.about-col-2{
+            flex-basis: 100%;
+        }
+        .about-col-2{
+            margin-bottom: 20%;
+        }
+        .about-col-1{
+            font-size: 15px;
+            margin: 6%;
+        }
+        .row {
+            margin-right: 10%;
+            margin-left: 0px;
+        }
+        .timeline-event-thumbnail{
+            padding: 0.25em 2.9em 0.2em 1em;
+        }
+        .timeline-event-copy{
+            width: 85%;
+        }
+        section {
+            padding: 40px 0;
+        }
+        .h-50 {
+            height: 0px;
+        }
+        
+        
+    }
+
+
+    @media screen and (max-width: 368px){
+        section {
+            padding: 40px 0;
+        }
+        .about-col-1{
+            font-size: 14px;
+            margin: 2%;
+        }
+        .timeline-event-thumbnail {
+            padding: 0.01em 0.9em 0.2em 1em;
+        }
+    }
