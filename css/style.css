@@ -1347,6 +1347,7 @@ nav .menu-btn i {
     @media screen and (max-width: 600px){
         nav .menu-btn i {
             display: block;
+            padding-top: 50%;
         }
         
         .imgmov1{
@@ -1369,7 +1370,7 @@ nav .menu-btn i {
             width: 100%;
             max-height: auto;
             background-size: 100%;
-            height: auto;
+            height: 85vh;
             min-height: 0%;
         }
         .home .max-width {
@@ -1378,7 +1379,7 @@ nav .menu-btn i {
         .fa-solid{
             color: #000;
             font-size: 20px;
-            padding-top: 50%;
+            padding-top: 2%;
             cursor: pointer;
         }
         #click:checked ~ .menu-btn i::before{
@@ -1426,8 +1427,9 @@ nav .menu-btn i {
             margin: 10%;
         }
         .size-50 {
-            font-size: 29px;
-            line-height: 40px;
+            font-size: 32px;
+            margin-bottom: 100px;
+            line-height: 43px;
         }
         
         .about-col-1,.about-col-2{
@@ -1450,7 +1452,7 @@ nav .menu-btn i {
         .timeline-event-copy{
             width: 85%;
         }
-        section {
+        .section {
             padding: 40px 0;
         }
         .h-50 {
@@ -1461,8 +1463,21 @@ nav .menu-btn i {
     }
 
 
-    @media screen and (max-width: 368px){
-        section {
+    @media screen and (max-width: 380px){
+        #home{
+            height: 69vh;
+        }
+        .home .home-content .text-1 {
+            font-size: 16px;
+        }
+        .home .home-content .text-2 {
+            font-size: 29px;
+            margin: 11px 0;
+        }
+        .home .max-width {
+            margin: 5% 0% auto 35%;
+        }
+        .section {
             padding: 40px 0;
         }
         .about-col-1{
