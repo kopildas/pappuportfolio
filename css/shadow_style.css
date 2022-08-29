@@ -732,7 +732,38 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         width: 53%;
         height: auto;
     }
-    
+    #section-133 .image {
+        padding-left: 16%;
+        width: 70%;
+    }
+    .bx .boxx {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .bx .caption .boxx h2 {
+        font-size: 17px;
+    }
+    .bx .caption h2 {
+        padding: 25px;
+    }
+    .bx .boxx .bo1 .subnum h3 {
+        padding-top: 6px;
+    }
+    .bx .boxx .bo1 p {
+        margin-top: 6rem;
+    }
+    .bx .caption h2 {
+        padding: 7px;
+    }
+    .bx .caption .boxx h2 {
+        
+        font-size: 20px;
+        
+    }
+    .bx .boxx .bo1 {
+        flex: 1 1 200px;
+        height: 250px;
+    }
 }
 
 
@@ -775,18 +806,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     .user p {
         font-size: 2.7rem;
     }
-    .bx .caption h2 {
-        padding: 7px;
-    }
-    .bx .caption .boxx h2 {
-        
-        font-size: 20px;
-        
-    }
-    .bx .boxx .bo1 {
-        flex: 1 1 200px;
-        height: 250px;
-    }
+    
     .grid2 {
 
         padding-left: 17rem;
