@@ -388,7 +388,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     gap: 3rem;
 }
 
-
+.mogrid .pro_desk {
+    display: block;
+}
 
 /* media query part */
 
@@ -412,6 +414,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     html{
         font-size: 45%;
     }
+    #project-1 {
+        background: url(../img/shadow_small.jpeg)no-repeat center;
+    }
+        
     p {
         margin: 0 0 10px;
         font-size: 2.7rem;
@@ -530,6 +536,18 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     }
     .bx .cont3{
         padding-left: 80px;
+    }
+
+    .pro_marz{
+        margin-bottom: 0px;
+    }
+    .mogrid .motex{
+        display: none;
+        margin-top: 90px;
+    }
+    .mogrid .pro_desk {
+        display: block;
+        margin-top: 90px;
     }
 
     
@@ -709,6 +727,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         height: auto;
     }
 
+    #section-132 .image {
+        padding-left: 15%;
+        width: 53%;
+        height: auto;
+    }
     
 }
 
