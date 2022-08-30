@@ -388,9 +388,20 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     gap: 3rem;
 }
 
-.mogrid .pro_desk {
-    display: block;
+.pro_desk {
+    display: none;
 }
+.xtr.text-dec {
+    /* font-family: PT Serif; */
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin: 0rem 0rem 2.4rem;
+    text-align: left;
+    padding: 0rem 0;
+    margin-left: 5rem;
+}
+
+
 
 /* media query part */
 
@@ -545,11 +556,19 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         display: none;
         margin-top: 90px;
     }
-    .mogrid .pro_desk {
+    .pro_desk {
         display: block;
         margin-top: 90px;
     }
-
+    .xtr.text-dec{
+        padding: 0rem 3rem;
+        line-height: 5rem;
+    }
+    .xtr.text-dec p{
+        padding-right: 9%;
+        line-height: 5rem;
+    }
+    
     
 }
 
