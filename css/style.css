@@ -1030,7 +1030,7 @@ a.active {
     grid-template-columns: 60% 40%;
     /* grid-gap: var(--gridGap); */
     grid-template-rows: auto;
-    padding: 0px 24px;
+    padding: 0px 5%;
     /* padding-right: 24px; */
 }
 .popup .container{
@@ -1342,6 +1342,27 @@ a.active {
 }
 nav .menu-btn i {
     display: none;
+}
+
+
+
+
+
+
+
+@media screen  and (min-width: 1369px){
+    .popup .grid {
+        padding: 0px 10%;
+        /* padding-right: 24px; */
+    }
+    
+}
+@media screen  and (min-width: 1469px){
+    .popup .grid {
+        padding: 0px 15%;
+        /* padding-right: 24px; */
+    }
+    
 }
 
 
