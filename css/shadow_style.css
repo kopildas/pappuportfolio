@@ -5,7 +5,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+html, body {
 
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
 html {
     --scrollbarBG: #CFD8DC;
     --thumbBG: #262829;
@@ -125,6 +131,7 @@ section{
     padding-left: 10%;
     padding-right: 10%;
     margin: -3rem 0rem;
+    text-align: center;
 }
 #section-10 .text-h1{
     font-size:6rem;
@@ -233,7 +240,8 @@ section{
 .sub_cap h2 {
     text-align: left;
     margin-bottom: 2rem;
-    padding-left: 0rem;
+    padding-left: 4rem;
+    font-size: 50px;
     font-weight: 100;
     color: #000;
 }
@@ -243,6 +251,7 @@ section{
     margin-bottom: 8rem;
     margin-top: 4.4rem;
     /* gap: 0rem; */
+    font-size: 40px;
     padding-left: 12.5rem;
     font-weight: 100;
     color: rgb(0, 0, 0);
@@ -430,6 +439,44 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
 @media screen  and (min-width: 1500px){
     .text-dec {   
         padding: 15rem 0;
+    }
+    .image {
+        /* padding-left: 3.5rem; */
+        width: 40%;
+        margin-left: 13%;
+        margin-right: auto;
+    }
+    .image_dg {
+        width: 35%;
+        height: 160px;
+    }
+    #section-131{
+        height: 930px;
+    }
+    #section-133{
+        padding-top: 90px;
+        padding-bottom: 100px;
+    }
+    #section-131 .text-dec {
+        padding: 33rem 0;
+    }  
+    #section-131 h3{
+        font-size: 31px;
+    }  
+    #section-132 h3{
+        font-size: 31px;
+    } 
+    #section-133 h3{
+        font-size: 31px;
+    } 
+    #section-13-low h2 {
+        font-size: 40px;
+    }
+    .high h2 {
+        font-size: 40px;
+    }
+    .grid3 {
+        padding-left: 24%;
     }
     
 }
