@@ -251,7 +251,7 @@ section{
     margin-bottom: 8rem;
     margin-top: 4.4rem;
     /* gap: 0rem; */
-    font-size: 40px;
+    font-size: 30px;
     padding-left: 12.5rem;
     font-weight: 100;
     color: rgb(0, 0, 0);
@@ -473,6 +473,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         font-size: 40px;
     }
     .high h2 {
+        font-size: 40px;
+    }
+    .hig h2 {
         font-size: 40px;
     }
     .grid3 {
@@ -809,7 +812,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     }
     .user {
         max-width: 100%;
-        height: 50%;
+        height: auto;
     }
     .text-dec {
         /* font-family: PT Serif; */
