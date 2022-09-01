@@ -703,7 +703,7 @@ a.active {
     top: 0px;
     left: 0px;
     height: 100%;
-    width: 100%;
+    width: 90%;
     background-color: #425BB5;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
@@ -994,36 +994,7 @@ a.active {
 }
 
 
-.popup .close-btn {
-    float: right;
-    margin: 20px;
-    font-size: 22px;
-    
-    cursor: pointer;
-    
-    position: absolute;
-    /* z-index: 100000; */
-    right: 14px;
-    top: 20px;
-    width: 30px;
-    height: 30px;
-    background: #222;
-    color: #fff;
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 50%;
-}
 
-.popup.active .overlay {
-    display: block;
-    
-}
-.popup.active .content {
-    transition: all 300ms ease-in-out;
-    transform: translate(-50%,-50%) scale(1);
-}
 .popup .grid {
     /* --gridGap: 24px; */
     display: grid;
@@ -1349,7 +1320,20 @@ nav .menu-btn i {
     margin-right: 0%;
 }
 
+.morow .col-md-6
+    {
+        position: relative;
+        min-height: 8px;
+        padding-right: 0px;
+        padding-left: 35px;
+    }
 
+
+.img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+}
 
 
 @media screen  and (min-width: 1369px){
