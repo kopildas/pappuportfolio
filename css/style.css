@@ -348,9 +348,9 @@ a.active {
     font-family: 'Ubuntu', sans-serif;
 }
 /* home */
-.home .max-width{
-    margin: auto auto 90px 550px;
-  }
+.home .max-width {
+    margin: auto auto 10% 50%;
+}
 .home .max-width .row{
     margin-right: 0;
   }
@@ -358,7 +358,7 @@ a.active {
 
 .home .home-content .text-1{
     font-size: 27px;
-    margin: 35px 0;
+    margin: 10% 0;
 }
 .home .home-content .text-2{
     font-size: 75px;
@@ -1345,7 +1345,9 @@ nav .menu-btn i {
 }
 
 
-
+.morow .row{
+    margin-right: 0%;
+}
 
 
 
@@ -1392,7 +1394,7 @@ nav .menu-btn i {
             width: 100%;
             max-height: auto;
             background-size: 100%;
-            height: 60vh;
+            height: 45vh;
             min-height: 0%;
         }
         .home .max-width {
@@ -1487,10 +1489,12 @@ nav .menu-btn i {
         
     }
 
+    
+    
 
     @media screen and (max-width: 380px){
         #home{
-            height: 50vh;
+            height: 35vh;
         }
         .home .home-content .text-1 {
             font-size: 16px;
