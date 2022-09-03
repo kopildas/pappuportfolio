@@ -1357,10 +1357,10 @@ nav .menu-btn i {
             display: block;
             padding-top: 50%;
         }
-        
-        .imgmov1{
+        /* 2nd photo disable on mobile device */
+        /* .imgmov1{
             display: block;
-        }
+        } */
         .imgmov2{
             display: none;
         }
@@ -1474,7 +1474,23 @@ nav .menu-btn i {
     }
 
     
-    
+    @media screen and (max-width: 420px){ 
+        .btn {
+            margin: 0px auto;
+            border: none;
+            padding: 10px 44px;
+            font-size: 36px;
+            position: relative;
+        }
+        .portfolio_item .portfolio_item_hover .item_info em {
+            
+            padding: 5px 0px;
+            
+        }
+}
+
+
+
 
     @media screen and (max-width: 380px){
         #home{
