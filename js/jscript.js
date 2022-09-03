@@ -94,47 +94,14 @@ $(document).ready(function () {
     //     disable: 'mobile'
     // });
 
-    //  isotope
-    // $('#projects').waitForImages(function () {
-    //     var $container = $('.portfolio_container');
-    //     $container.isotope({
-    //         filter: '*',
-    //     });
-
-    //     $('.portfolio_filter a').click(function () {
-    //         $('.portfolio_filter .active').removeClass('active');
-    //         $(this).addClass('active');
-
-    //         var selector = $(this).attr('data-filter');
-    //         $('.container').isotope({
-    //             filter: selector,
-    //             animationOptions: {
-    //                 duration: 500,
-    //                 animationEngine: "jquery"
-    //             }
-    //         });
-            
-    //         $container.isotope({
-    //             filter: selector,
-    //             animationOptions: {
-    //                 duration: 500,
-    //                 animationEngine: "jquery"
-    //             }
-    //         });
-    //         return false;
-    //     });
-
-    // });
-
-    
-    //animatedModal
+   
     
 
 
 
 })
 
-
+//for skill,edu part style
 var tablinks = document.getElementsByClassName("tab-links");
 var tabcomtets = document.getElementsByClassName("tab-contents");
 
@@ -148,28 +115,7 @@ function opentab(tabname){
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).classList.add("active-tab");
 }
-//animatedModal
-//$("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
 
-
-// function togglePopup2(){
-//     document.getElementById("popup-2").classList.toggle("active");
-//     // document.getElementById("popup-1").classList.toggle("active");
-//     document.addEventListener('keydown', function(event){
-//         if(event.key === "Escape"){
-//     document.getElementById("popup-2").classList.toggle("active");
-//         }
-//     });
-// }
-// function togglePopup3(){
-//     document.getElementById("popup-3").classList.toggle("active");
-//     // document.getElementById("popup-1").classList.toggle("active");
-//     document.addEventListener('keydown', function(event){
-//         if(event.key === "Escape"){
-//     document.getElementById("popup-3").classList.toggle("active");
-//         }
-//     });
-// }
 
 
 // for porject filter
