@@ -682,7 +682,7 @@ a.active {
 
 .portfolio .categories-grid .categories ul li.active {
     background-color: #425BB5;
-    padding: 0px 20px;
+    padding: 8px 20px;
     color: white;
     text-decoration: none;
 }
@@ -770,7 +770,7 @@ a.active {
 }
 
 .portfolio .categories-grid .categories ul li {
-    padding: 7px 10px;
+    padding: 8px 10px;
     -webkit-transition: all .2s ease-in-out .2s;
     transition: all .2s ease-in-out .2s;
     cursor: pointer;
