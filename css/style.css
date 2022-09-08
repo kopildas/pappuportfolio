@@ -770,7 +770,7 @@ a.active {
 }
 
 .portfolio .categories-grid .categories ul li {
-    padding: 0 10px;
+    padding: 7px 10px;
     -webkit-transition: all .2s ease-in-out .2s;
     transition: all .2s ease-in-out .2s;
     cursor: pointer;
@@ -1166,6 +1166,21 @@ nav .menu-btn i {
 }
 
 
+.port_menu ul {
+    display: inline-block;
+    padding-left: 0;
+    list-style: none;
+    padding: 20px;
+    margin-bottom: 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.port_menu ul li{
+    padding: 10px 40px;
+}
+
+
 @media screen  and (min-width: 1369px){
     .popup .grid {
         padding: 0px 10%;
@@ -1208,7 +1223,7 @@ nav .menu-btn i {
             width: 100%;
             max-height: auto;
             background-size: 100%;
-            height: 45vh;
+            height: 428px;
             min-height: 0%;
         }
         .home .max-width {
