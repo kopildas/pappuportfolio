@@ -67,6 +67,15 @@ h4:before {
 /* General
 ==================================================*/
 
+
+
+
+/* for grid 2 image */
+.pro_row {
+    display: flex;
+    justify-content: space-between;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.4rem;
@@ -75,12 +84,6 @@ body {
     color: rgb(0, 0, 0);
 }
 
-
-.row{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 .size-50 {
     font-size: 5rem;
     line-height: 5rem;
@@ -180,6 +183,30 @@ section{
     padding: 0rem 7.5rem;
     /* padding-right: 24px; */
 }
+
+.grid_pro {
+    /* --gridGap: 24px; */
+    display: grid;
+    grid-template-columns: 40% 60%;
+    /* grid-gap: var(--gridGap); */
+    grid-template-rows: auto;
+    padding: 0rem 7.5rem;
+    /* padding-right: 24px; */
+}
+
+.pro_moc_photo{
+    display: flex;
+    /* grid-template-columns: 40% 60%; */
+    /* grid-gap: var(--gridGap); */
+    flex-wrap: wrap;
+    /* grid-template-rows: auto; */
+    /* padding: 0rem 0rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 55px;
+}
+
 .container{
     padding-right: 1.5rem;
     padding-left: 1.5rem;
@@ -197,6 +224,15 @@ section{
     margin-left: 5rem;
     
 }
+
+.pro_text-dec{
+    font-size: 1.8rem;
+    line-height:3rem;
+    margin:0rem 0rem 2.4rem;
+    text-align:left;
+    padding: 16rem 0;
+    margin-left: 5rem;
+}
 .marz{
     margin-left: 0rem;
 }
@@ -205,6 +241,20 @@ section{
 
 #project-1 {
     background: url(../img/shadow.jpeg)no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-position: center; */
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    background-position: 50%;
+    overflow: hidden;
+    padding-top: 20rem;
+    padding-bottom: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#project-2 {
+    background: url(../img/covr2.jpg)no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     /* background-position: center; */
@@ -230,14 +280,40 @@ section{
     color: var(--h1Color);
 }
 
+.moc{
+    color: rgb(0, 0, 0);
+    /* color:#e8e6e3; */
+    line-height:2.4rem;
+    text-align:left;
+    font-family: var(--h1Font);
+    font-size: var(--h1Size);
+    font-weight: var(--h1Weight);
+    font-style: var(--h1Style);
+    line-height: var(--h1Height);
+    color: var(--h1Color);
+    padding-left: 50px;
+}
+
+.moc h2{
+    font-size: 50px;
+}
+.moc_tx p{
+    font-family: 20px;
+}
+
+
+
 .user {
     max-width: 100%;
     height: 17rem;
     background: rgb(235 243 247);
 }
 .image{
-    /* padding-left: 3.5rem; */
+    
     width: 50%;
+    padding: 5px;
+    
+    /* margin-left: 41px; */
 }
 .image_dg{
     width: 35%;
@@ -254,7 +330,7 @@ section{
 
 .caption h3 {
     text-align: left;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
     margin-top: 4.4rem;
     /* gap: 0rem; */
     font-size: 30px;
@@ -279,7 +355,7 @@ section{
 }
 .bx h1 {
     color: rgb(24, 26, 27);
-    text-align: left;
+    
 }
 .bx .cont2{
     
@@ -342,6 +418,10 @@ section{
     font-family: 'Lato', sans-serif;
 }
 
+.img_box{
+    display: flex;
+    justify-content: center;
+}
 
 
 .bx .boxx .bo1{
@@ -370,9 +450,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
 .bx .caption h2 {
     text-align: center;
     margin-bottom: 2rem;
-    padding-top: 3.5rem;
+    padding-top: 12.5rem;
     padding-left: 0rem;
-    font-weight: 100;
+    font-size: 26px;
     color: #000;
 }
 
