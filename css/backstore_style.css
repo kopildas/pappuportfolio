@@ -36,6 +36,11 @@ body::-webkit-scrollbar-thumb {
 
 
 
+  .fa-solid{
+    color: orangered;
+  }
+
+
   h1 {
     font-family: 'Playfair Display', serif;
     font-size: 8rem;
