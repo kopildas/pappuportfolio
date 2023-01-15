@@ -1198,6 +1198,7 @@ nav .menu-btn i {
 
 
     @media screen and (max-width: 600px){
+        
         nav .menu-btn i {
             display: block;
             padding-top: 50%;
@@ -1231,7 +1232,7 @@ nav .menu-btn i {
         }
         .fa-solid{
             color: #000;
-            font-size: 20px;
+            font-size: 50px;
             padding-top: 2%;
             cursor: pointer;
         }
