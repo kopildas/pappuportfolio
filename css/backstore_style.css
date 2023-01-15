@@ -507,7 +507,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     padding: 0rem 0;
     margin-left: 5rem;
 }
-
+.subnum p{
+    font-size: 25px;
+}
 
 
 /* media query part */
@@ -625,6 +627,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
 /* for mobile */
 
 @media  (max-width: 768px){
+    .subnum p {
+        font-size: 20px;
+    }
     html{
         font-size: 45%;
     }
@@ -806,7 +811,27 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
 
 
 
-@media  (max-width: 468px){
+@media  (max-width: 480px){
+    .h3, h3 {
+        font-size: 27px;
+    }
+    .subnum p{
+        font-size: 15px;
+    }
+    .fa-solid {
+        
+        font-size: 35px;
+        padding-top: 2%;
+        cursor: pointer;
+    }
+    .bx .boxx {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
     html{
         font-size: 45%;
     }
@@ -985,10 +1010,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         padding-left: 16%;
         width: 70%;
     }
-    .bx .boxx {
+    /* .bx .boxx {
         padding-left: 5rem;
         padding-right: 5rem;
-    }
+    } */
     .bx .caption .boxx h2 {
         font-size: 17px;
     }
@@ -999,10 +1024,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         padding-top: 3px;
     }
     .bx .boxx .bo1 p {
-        margin-top: 6rem;
+        margin-top: 2rem;
     }
     .bx .caption h2 {
-        padding: 7px;
+        padding: 50px;
     }
     .bx .caption .boxx h2 {
         
@@ -1011,7 +1036,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     }
     .bx .boxx .bo1 {
         flex: 1 1 200px;
-        height: 250px;
+        height: auto;
+        resize: both; overflow: auto;
     }
     
 }
