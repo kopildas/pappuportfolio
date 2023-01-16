@@ -581,7 +581,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         font-size: 55%;
     }
     .h3, h3 {
-        font-size: 40px;
+        font-size: 36px;
     }
     .col-sm-6 {
         width: 0px;
@@ -816,7 +816,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         font-size: 27px;
     }
     .subnum p{
-        font-size: 15px;
+        font-size: 18px;
     }
     .fa-solid {
         
@@ -1024,15 +1024,15 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         padding-top: 3px;
     }
     .bx .boxx .bo1 p {
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
     .bx .caption h2 {
         padding: 50px;
     }
     .bx .caption .boxx h2 {
         
-        font-size: 20px;
-        
+        font-size: 17px;
+        margin-top: 50px;
     }
     .bx .boxx .bo1 {
         flex: 1 1 200px;
