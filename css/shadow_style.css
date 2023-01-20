@@ -37,13 +37,13 @@ body::-webkit-scrollbar-thumb {
 
 
   h1 {
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
     font-size: 8rem;
     line-height: 7rem;
 }
 
 h4 {
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
     text-transform: capitalize;
     letter-spacing: 2rem;
     position: relative;
