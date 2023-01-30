@@ -396,7 +396,7 @@ section{
     padding-left: 140px;
 }
 .bx .boxx .bo {
-    padding-top: 75px;
+    padding-top: 100px;
     width: 40rem;
     height: 28rem;
     background: #ffb7a73b;
@@ -423,6 +423,7 @@ section{
     /* font-family: 'Lato', sans-serif; */
 }
 .bx .boxx .bo2 p{
+    padding: 20px;
     text-align: center;
     font-size: 2rem;
     line-height: 35px;
@@ -473,7 +474,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     text-align: left;
     margin-bottom: 20px;
     
-    font-weight: 100;
+    /* font-weight: 100; */
     color: #000;
 }
 
