@@ -422,8 +422,15 @@ section{
 .bx .boxx .bo h3{
     /* font-family: 'Lato', sans-serif; */
 }
-.bx .boxx .bo2 p{
+.bx .boxx .ju p{
     padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 35px;
+    /* font-family: 'Lato', sans-serif; */
+}
+.bx .boxx .bo2 p{
+    
     text-align: center;
     font-size: 2rem;
     line-height: 35px;
