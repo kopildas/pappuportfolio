@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
 }
 
 html, body {
@@ -48,13 +48,13 @@ body::-webkit-scrollbar-thumb {
 
 
   h1 {
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
     font-size: 8rem;
     line-height: 15rem;
 }
 
 h4 {
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
     text-transform: capitalize;
     letter-spacing: 2rem;
     position: relative;
@@ -215,7 +215,7 @@ section{
 .text-dec{
     /* background-color:#181a1b color:#e8e6e3; */
     /* font-family:PT Serif; */
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height:3rem;
     margin:0rem 0rem 2.4rem;
     text-align:left;
@@ -225,7 +225,7 @@ section{
 }
 
 .pro_text-dec{
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height:3rem;
     margin:0rem 0rem 2.4rem;
     text-align:left;
@@ -321,8 +321,9 @@ section{
 }
 .image{
     
-    width: 50%;
-    padding: 5px;
+    
+   
+    display: flex; justify-content: center;
     
     /* margin-left: 41px; */
 }
@@ -393,17 +394,20 @@ section{
     padding-right: 10rem;
 }
 .bx .cont3{
-    padding-left: 140px;
+    padding-left: 0px;
+    
+    padding-right: 0px;
 }
 .bx .boxx .bo {
-    padding-top: 100px;
+    padding-top: 70px;
     width: 40rem;
-    height: 28rem;
+    height: 20rem;
     background: #ffb7a73b;
 }
 .bx .boxx .bo2{
-    width: 123.8rem;
-    resize: both; overflow: auto;
+    width: 90rem;
+    height: 22rem;
+    resize: both; 
     padding-top: 5.5rem;
     
     background: #ffb7a73b;
@@ -413,7 +417,7 @@ section{
 
 .bx .boxx .bo p{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 35px;
     height: 170px;
     
@@ -425,14 +429,14 @@ section{
 .bx .boxx .ju p{
     padding: 20px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.1rem;
     line-height: 35px;
     /* font-family: 'Lato', sans-serif; */
 }
 .bx .boxx .bo2 p{
     
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 35px;
     /* font-family: 'Lato', sans-serif; */
 }
@@ -636,7 +640,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
 }
 
 .cap .container .card .box .content h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fff;
   z-index: 1;
   transition: 0.5s;
@@ -644,7 +648,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
 }
 
 .cap .container .card .box .content p {
-  font-size: 2.1rem;
+  font-size: 2rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.9);
   z-index: 1;
@@ -691,6 +695,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     color: black;
 }
 
+.learn p{
+    margin: 0 145px 10px;
+    font-size: 1.8rem;
+}
 /* media query part */
 
 
@@ -699,7 +707,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
 
 @media screen  and (min-width: 1800px){
     .pro_text-dec{
-        font-size: 3rem;
+        font-size: 1.8rem;
         line-height:3rem;
         margin:0rem 0rem 2.4rem;
         text-align:left;
@@ -708,7 +716,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     }
     .bx .boxx .bo p{
         text-align: center;
-        font-size: 3rem;
+        font-size: 1.8rem;
         line-height: 35px;
         height: 170px;
         
@@ -719,12 +727,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     }
     .bx .boxx .bo2 p{
         text-align: center;
-        font-size: 3rem;
+        font-size: 1.8rem;
         line-height: 35px;
         /* font-family: 'Lato', sans-serif; */
     }
     .text-dec {   
-        font-size: 3rem;
+        font-size: .18rem;
         
     }
     .sec_13_hg{
@@ -755,7 +763,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     }
     .text-dec {
         /* font-family: PT Serif; */
-        font-size: 3rem;
+        font-size: 1.8rem;
         line-height: 4rem;
         
     }
@@ -770,14 +778,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
 @media screen  and (min-width: 1500px){
     
     .text-dec {   
-        font-size: 2rem;
+        font-size: 1.8rem;
         padding: 15rem 0;
     }
     .image {
         /* padding-left: 3.5rem; */
-        width: 40%;
-        margin-left: 13%;
-        margin-right: auto;
+        display: flex; justify-content: center;
     }
     .image_dg {
         width: 35%;
@@ -877,6 +883,17 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
 /* for mobile */
 
 @media  (max-width: 768px){
+    .bx .boxx .bo2{
+        width: 45rem;
+        height: 22rem;
+        resize: both; 
+        padding-top: 5.5rem;
+        
+        background: #ffb7a73b;
+    }
+    .learn p{
+        margin: 0 40px 10px;
+    }
     img {
         max-width: 100%;
       }
@@ -1041,7 +1058,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         padding-top: 74px;
     }
     .bx .cont3{
-        padding-left: 80px;
+        /* padding-left: 80px; */
     }
 
     .pro_marz{
@@ -1073,6 +1090,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
 
 
 @media  (max-width: 480px){
+    .cont3{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     .moc {
        
         padding-left: 27px;
@@ -1124,9 +1145,17 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         justify-content: space-around;
         flex-wrap: wrap;
         align-items: center;
-        padding-left: 10rem;
-        padding-right: 10rem;
+        /* padding-left: 10rem;
+        padding-right: 10rem; */
     }
+    .bx .cont3 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+
     html{
         font-size: 45%;
     }
@@ -1291,10 +1320,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         padding-left: 7.1rem;
     }
     .bx .boxx .bo {
-        padding-top: 74px;
+        padding-top: 25px;
     }
     .bx .cont3{
-        padding-left: 80px;
+        /* padding-left: 80px; */
     }
     .bx .boxx .bo2 {
         height: auto;
@@ -1348,10 +1377,18 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
     .moico .fa-solid {
         font-size: 50px;
     }
+    .cont3{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 
 @media  (max-width: 468px){
+    .cont3{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     #section-10 .text-h1 {
         width: 100%;
         padding-left: 0px;
@@ -1380,6 +1417,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
 }
 
 @media  (max-width: 376px){
+    .cont3{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     #section-10 .text-dec {
         padding-left: 0px;
     }
@@ -1404,6 +1445,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
 
 
 @media  (max-width: 340px){
+    .cont3{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    img {
+        max-width: 100%;
+      }
     #section-10 .text-h1 {
         width: 36rem;
         padding-left: 0px;
