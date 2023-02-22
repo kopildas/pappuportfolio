@@ -219,7 +219,7 @@ section{
     line-height:3rem;
     margin:0rem 0rem 2.4rem;
     text-align:left;
-    padding: 10rem 0;
+    /* padding: 10rem 0; */
     margin-left: 5rem;
     
 }
@@ -229,7 +229,7 @@ section{
     line-height:3rem;
     margin:0rem 0rem 2.4rem;
     text-align:left;
-    padding: 16rem 0;
+    padding: 5rem 0;
     margin-left: 5rem;
 }
 .marz{
