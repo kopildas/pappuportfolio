@@ -119,10 +119,12 @@ section{
 
 
 
-.contain .txt{
+/* .cent_txt {
     text-align: center;
     color: orangered;
-}
+    padding-top: 50%; /* adjust the padding-top value to center the text vertically */
+  }
+   */
 
 .grid2{
     display: grid;
@@ -235,37 +237,42 @@ section{
 .marz{
     margin-left: 0rem;
 }
-
-
-
-#project-1 {
-    background: url(../img/shadow.jpeg)no-repeat center;
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    position: relative;
+  }
+  
+  .text-container::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+  
+  .cent_txt {
+    text-align: center;
+    color: orangered;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  #project-2bac {
+    background: url(../img/covr2.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    /* background-position: center; */
     font-family: 'Ubuntu', sans-serif;
     position: relative;
     background-position: 50%;
     overflow: hidden;
-    padding-top: 20rem;
-    padding-bottom: 35rem;
+    /* padding-bottom: 35rem; */
     margin-left: auto;
     margin-right: auto;
-}
-#project-2 {
-    background: url(../img/covr2.jpg)no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-    /* background-position: center; */
-    font-family: 'Ubuntu', sans-serif;
-    position: relative;
-    background-position: 50%;
-    overflow: hidden;
-    padding-top: 20rem;
-    padding-bottom: 35rem;
-    margin-left: auto;
-    margin-right: auto;
-}
+    object-fit: fill;
+  }
+  
 .ovr{
     color: rgb(0, 0, 0);
     /* color:#e8e6e3; */
@@ -416,10 +423,11 @@ section{
 
 
 .bx .boxx .bo p{
+    padding: 0 10px;
     text-align: center;
     font-size: 1.8rem;
     line-height: 35px;
-    height: 170px;
+    /* height: 170px; */
     
     /* font-family: 'Lato', sans-serif; */
 }
@@ -640,7 +648,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
 }
 
 .cap .container .card .box .content h3 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: #fff;
   z-index: 1;
   transition: 0.5s;
@@ -648,7 +656,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
 }
 
 .cap .container .card .box .content p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.9);
   z-index: 1;
@@ -715,10 +723,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
         margin-left: 5rem;
     }
     .bx .boxx .bo p{
+        padding: 0 10px;
         text-align: center;
         font-size: 1.8rem;
         line-height: 35px;
-        height: 170px;
+        /* height: 170px; */
         
         /* font-family: 'Lato', sans-serif; */
     }
@@ -883,6 +892,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2f5f7",endCo
 /* for mobile */
 
 @media  (max-width: 768px){
+    .text-container {
+        
+        height: 60vh;
+    }
+    #project-2bac {
+        background: url(../img/rsz_covr2.jpg)no-repeat center;
+    }
     .bx .boxx .bo2{
         width: 45rem;
         height: 22rem;
