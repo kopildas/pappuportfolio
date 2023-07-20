@@ -151,7 +151,7 @@ section .title::after{
     z-index: 10000
 }
 
-#status,
+#status, 
 .preloader {
     top: 50%;
     left: 50%;
