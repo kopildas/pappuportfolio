@@ -1147,6 +1147,7 @@ nav .menu-btn i {
 
 
 .morow .row{
+    /* margin-left: 10%; */
     margin-right: 0%;
 }
 
@@ -1156,6 +1157,7 @@ nav .menu-btn i {
         min-height: 8px;
         padding-right: 0px;
         padding-left: 35px;
+        /* margin: 35px auto 0; */
     }
 
 
@@ -1163,6 +1165,10 @@ nav .menu-btn i {
     display: block;
     max-width: 90%;
     height: auto;
+}
+.only-height{
+    width: 90%;
+    height: 32.5vh;
 }
 
 
@@ -1186,6 +1192,10 @@ nav .menu-btn i {
         padding: 0px 10%;
         /* padding-right: 24px; */
     }
+    .only-height{
+        max-width: 90%;
+        height: auto;
+    }
     
 }
 @media screen  and (min-width: 1469px){
@@ -1193,11 +1203,35 @@ nav .menu-btn i {
         padding: 0px 15%;
         /* padding-right: 24px; */
     }
+    .only-height{
+        max-width: 90%;
+        height: auto;
+    }
     
 }
 
 
+@media screen and (max-width: 900px){
+    .only-height{
+        max-width: 90%;
+        height: auto;
+    }
+    .morow .row{
+        margin-left: 10%;
+        /* margin-right: 0%; */
+    }
+}
+
     @media screen and (max-width: 600px){
+        .only-height{
+            max-width: 90%;
+            height: auto;
+        }
+        .morow .row{
+            margin-left: 10%;
+            /* margin-right: 0%; */
+        }
+        
         a:focus {
             color: rgb(255, 255, 255);
             text-decoration: none;
@@ -1377,3 +1411,8 @@ nav .menu-btn i {
             padding: 0.01em 0.9em 0.2em 1em;
         }
     }
+
+
+
+    /* project image responsiveness and make the columns align in a single row and be responsive.  */
+    
